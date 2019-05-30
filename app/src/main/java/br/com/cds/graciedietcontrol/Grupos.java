@@ -1,0 +1,30 @@
+package br.com.cds.graciedietcontrol;
+
+public class Grupos {
+
+    private long idGrupo;
+    private String nome;
+
+    @Override
+    public String toString() {
+        return "Grupos{" +
+                "nome='" + nome + '\'' +
+                '}';
+    }
+
+    public long getIdGrupo() {
+        return idGrupo;
+    }
+
+    public void setIdGrupo(long idGrupo) {
+        this.idGrupo = idGrupo;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+}
