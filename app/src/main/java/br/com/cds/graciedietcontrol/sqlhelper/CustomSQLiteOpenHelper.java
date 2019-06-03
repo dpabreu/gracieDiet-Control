@@ -1,4 +1,4 @@
-package br.com.cds.graciedietcontrol;
+package br.com.cds.graciedietcontrol.sqlhelper;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

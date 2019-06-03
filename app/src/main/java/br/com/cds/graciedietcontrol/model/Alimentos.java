@@ -1,4 +1,4 @@
-package br.com.cds.graciedietcontrol;
+package br.com.cds.graciedietcontrol.model;
 
 public class Alimentos {
 

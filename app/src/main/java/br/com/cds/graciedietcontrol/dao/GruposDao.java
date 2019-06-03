@@ -1,4 +1,4 @@
-package br.com.cds.graciedietcontrol;
+package br.com.cds.graciedietcontrol.dao;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,6 +7,9 @@ import android.database.sqlite.SQLiteDatabase;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import br.com.cds.graciedietcontrol.sqlhelper.CustomSQLiteOpenHelper;
+import br.com.cds.graciedietcontrol.model.Grupos;
 
 public class GruposDao {
 
