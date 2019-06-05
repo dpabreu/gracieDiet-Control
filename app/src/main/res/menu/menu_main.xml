@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/cadastro_grupo"
         app:showAsAction="always"
-        android:title="Grupos"/>
+        android:title="@string/action_grupos"/>
     <item android:id="@+id/cadastro_sub_grupo"
         app:showAsAction="always"
-        android:title="Sub Grupos"/>
+        android:title="@string/action_sub_grupos"/>
     <item android:id="@+id/cadastro_alimento"
         app:showAsAction="always"
-        android:title="Alimentos"/>
+        android:title="@string/action_alimentos"/>
 </menu>
